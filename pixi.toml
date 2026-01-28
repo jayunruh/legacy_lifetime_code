@@ -1,0 +1,16 @@
+[workspace]
+authors = ["Jay Unruh <jru@stowers.org>"]
+channels = ["conda-forge"]
+name = "legacy_lifetime_fitting"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.10.*"
+jupyter = ">=1.1.1,<2"
+numpy = ">=2.2.6,<3"
+pandas = ">=2.3.3,<3"
+matplotlib = ">=3.10.8,<4"
+scipy = ">=1.15.2,<2"
